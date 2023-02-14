@@ -2,7 +2,7 @@
 
 Our blog has <%= Article.public_count %> articles and counting!
 
-<ul>
+
   <% @articles.each do |article| %>
     <% unless article.archieved? %>
         <li>
@@ -10,7 +10,7 @@ Our blog has <%= Article.public_count %> articles and counting!
         </li>
     <% end %>
   <% end %>
-</ul>
+
 
 <%= link_to "New Article", new_article_path %>
 
