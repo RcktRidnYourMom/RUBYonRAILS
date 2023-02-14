@@ -20,23 +20,31 @@ background-image: url(photo-1553095066-5014bc7b7f2d.jfif);
 background-size: cover;
 background-repeat: no-repeat;
 background-color: rgb(99, 173, 104);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
 
 text-align: center;
-padding-top: 10px;
+padding-top: 150px;
  }
- div{
+div{
 padding-top: 25px;
 color: aquamarine;
+max-width: 100px;
+
  }
  a{
 text-decoration: none;
-color: aliceblue;
+color: black;
 text-align: center;
  }
 
  ul{
 text-align: center;
  }
+ 
+button{
+   color: black;
+}
 
  h1{
     color: aquamarine;
